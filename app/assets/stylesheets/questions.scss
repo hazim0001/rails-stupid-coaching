@@ -1,0 +1,42 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+ $lightblue: #8de1fb;
+.padding{
+  // border:2px solid  red;
+  padding-left: 20px;
+}
+
+.card{
+  margin: 10px auto;
+  background-color: lightyellow;
+  border-left-color:  #abc1d8;
+  border-left-width: 6px;
+  border-left-style: solid;
+  font-size: 16px;
+}
+.button {
+  background-color: $lightblue;
+  border-bottom-right-radius:8px;
+  border-top-right-radius:8px;
+  border-left-color:  $lightblue;
+  border-width: 0.1px;
+
+  height:29px;
+  width:10%;
+  margin-left: 0px;
+}
+.searchbar{
+  width:70%;
+  height:25px;
+  margin-right:0px;
+  border-top-left-radius:8px;
+  border-bottom-left-radius:8px;
+  border-right-color: $lightblue;
+  border-width: 0.1px;
+
+
+}
+.flex{
+  display: flex;
+}
